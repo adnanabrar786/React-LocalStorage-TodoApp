@@ -6,7 +6,7 @@ import TodoPractice from "./pages/TodoPractice";
 function App() {
   return (
     <div className="App">
-      <TodoPractice />
+      <Todo />
     </div>
   );
 }
