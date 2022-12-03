@@ -7,7 +7,7 @@ import TodoPractice from "./pages/TodoPractice";
 function App() {
   return (
     <div className="App">
-      <Additemsfetchitems />
+      <Todo />
     </div>
   );
 }
