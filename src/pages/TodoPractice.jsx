@@ -24,11 +24,11 @@ const TodoPractice = () => {
         console.log(id);
     }
 
-    useEffect(() => {
-        let getJson = localStorage.getItem('taskValue')
-        if (getJson) {
-           let arrayName = JSON.parse(getJson)
-            setTasks(arrayName)
+      useEffect(() => {
+        let storedList = localStorage.getItem('taskValue')
+        if (storedList) {
+           let storedListData = JSON.parse(storedList)
+            setTasks(storedListData)
         }
     }, []);
 
